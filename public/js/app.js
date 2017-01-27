@@ -9,7 +9,7 @@ app.config(["$locationProvider", "$routeProvider", function($locationProvider, $
 		//controllerAs: "$ctrl"
 	}).otherwise({ redirectTo: '/' });
 	
-	$locationProvider.html5Mode(true);
+	//$locationProvider.html5Mode(true);
 }])
 .controller("HomeController", ["$scope", HomeController]);
 
