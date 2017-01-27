@@ -1,4 +1,4 @@
-## Contain
+## Contains
 ### Technologies
 [ES6 via Babel](http://babeljs.io/)
 
