@@ -1,48 +1,30 @@
-#Boilerplate for Angularjs projects.
+## Contain
+### Technologies
+[ES6 via Babel](http://babeljs.io/)
 
+[Scss](http://sass-lang.com/)
 
-##Includes
+[Webpack](https://webpack.github.io/)
 
-[Gulp](http://gulpjs.com/) ( sass, autoprefixer )
+[Webpack dev server](https://webpack.github.io/docs/webpack-dev-server.html)
 
-[Angularjs](https://angularjs.org/)
+### Libraries
+[Angular.js (v1.4.8)](https://angularjs.org/)
 
-[jQuery](http://jquery.com/)
+[jQuery.js (v2.1.4)](http://jquery.com/)
 
-[Bootstrap](http://getbootstrap.com/)
+[Bootstrap (v3.3.6)](http://getbootstrap.com/)
 
-[Font awesome] (https://fortawesome.github.io/Font-Awesome/)
+[Fontawesome (v4.5.0)](http://fontawesome.io/)
 
-##Required
+## Requires
+[Node](https://nodejs.org/en/)
 
-[NodeJs] (https://nodejs.org/en/)
+[NPM](https://www.npmjs.com/)
 
-
-##Installation
-
-**terminal / cmd**
-
-$ npm install -g gulp http-server
-
-**Go inside project rootfolder**
-
-$ http-server
-
-**new tab in terminal / cmd and type**
-
-$ npm install
-
-then
-
-$ gulp css
-
-**new tab in terminal / cmd and type**
-
-$ gulp js
-
-
-Open localhost:8080 in your favorite browser
-
-##Woaalla
-
-**you are done, enjoy ❤**
+## Installation and running
+```
+$ sudo npm install
+//might take a minute to start
+$ sudo npm start
+```
