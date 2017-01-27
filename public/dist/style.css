@@ -1,1 +1,74 @@
-/* You styles here */
+
+body{
+background: #f1f1f1;
+font-family: 'Rubik';
+}
+
+h1{
+  font-family: 'Passion One';
+  font-size: 72px;
+  letter-spacing: 1px;
+  background: -webkit-linear-gradient(45deg, #43c559, #5ad08e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p{
+  color: #5c6b80;
+}
+
+section{
+  color: #f1f1f1;
+  width: 100%;
+  padding: 50px 20px;
+}
+
+.hero{
+  background-image: url('https://subtlepatterns.com/patterns/noisy_net.png');
+  text-align: center;
+}
+
+.btn-style{
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+  background: #f1f1f1;
+  color: #222;
+  transition: all .3s ease-in-out;
+}
+
+.btn-style:hover{
+  background: #222;
+  color: #f1f1f1;
+}
+
+.includes{
+  color: #222;
+}
+
+.logo-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container .logo{
+  display: inline-block;
+  max-width: 100px;
+  transition: all .3s ease-in-out;
+  filter: grayscale(1);
+}
+
+.logo-container .logo:hover{
+  filter: grayscale(0);
+}
+
+.logo-container .logo img{
+  max-width: 100%;
+  height: auto;
+}
+
+.tutorial{
+  color: #222;
+}
