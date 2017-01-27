@@ -75,6 +75,6 @@ section{
 
 .footer{
   padding: 20px;
-  background: #222;
+  background: #222!important;
   color: #f1f1f1;
 }
