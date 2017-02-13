@@ -24,6 +24,8 @@
 
 ## Installation and running
 ```
+$ git clone https://github.com/piilzner/Boilerplate.git
+$ git checkout angular
 $ sudo npm install
 //might take a minute to start
 $ sudo npm start
