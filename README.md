@@ -1,5 +1,5 @@
 # Boilerplate
-A easy start for your next project 
+Ground zero for your project.
 
 ### Available Boilerplates
 
