@@ -1,3 +1,5 @@
 {
-    "a": "a"
+    "javascript": {
+        "angular": "https://github.com/piilzner/pbp/tree/angular"
+    }
 }
