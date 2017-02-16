@@ -1,0 +1,14 @@
+{
+    "controller":{
+        "nametemplate": ".controller.js",
+        "description": "Creates a angular.js controller file",
+        "path": "/public/js/controllers/",
+        "contents": [
+            "export class #NAME#Controller{",
+            "   constructor($scope){",
+            "       this.scope = $scope;",
+            "   }",
+            "}"
+        ]
+    }
+}
