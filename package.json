@@ -3,18 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --hot --inline --port 3000"
+    "start": "http-server . -p 3000 & gulp"
   },
-  "devDependencies": {
-    "babel-core": "^6.18.0",
-    "babel-loader": "^6.2.5",
-    "babel-preset-es2015": "^6.18.0",
-    "css-loader": "^0.26.1",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "node-sass": "^3.10.1",
-    "sass-loader": "^4.1.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.2"
+  "devDependencies": {},
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11"
   }
 }

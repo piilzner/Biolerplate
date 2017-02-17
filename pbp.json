@@ -4,11 +4,48 @@
         "description": "Creates a angular.js controller file",
         "path": "/public/js/controllers/",
         "contents": [
-            "export class #NAME#Controller{",
-            "   constructor($scope){",
-            "       this.scope = $scope;",
+            "angular.module('app').controller('#NAME#ctrl', ['$scope', function($scope){",
+            "   ",
+            "}]);"
+        ]
+    },
+    "factory":{
+        "nametemplate": ".factory.js",
+        "description": "Creates a angular.js factory file",
+        "path": "/public/js/factories/",
+        "contents": [
+            "angular.module('app').factory('#NAME#', [function($scope){",
+            "   return {",
+            "       func: function(){",
+            "           ",
+            "       }",
             "   }",
-            "}"
+            "}]);"
+        ]
+    },
+    "service":{
+        "nametemplate": ".service.js",
+        "description": "Creates a angular.js service file",
+        "path": "/public/js/services/",
+        "contents": [
+            "angular.module('app').service('#NAME#', [function(){",
+            "   this.func = function(){",
+            "       ",
+            "   }",
+            "}]);"
+        ]
+    },
+    "directive":{
+        "nametemplate": ".directive.js",
+        "description": "Creates a angular.js directive file",
+        "path": "/public/js/directives/",
+        "contents": [
+            "angular.module('app').directive('#NAME#', [function(){",
+            "  return {",
+            "       restrict: 'ACE',",
+            "       template: '<div>Directive template</div>",
+            "   };",
+            "}]);"
         ]
     }
 }

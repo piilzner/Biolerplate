@@ -1,1 +1,15 @@
-/* You styles here */
+body {
+  background: #14222d;
+  color: #424242; }
+
+.github-fork {
+  width: 150px;
+  margin: 20px auto;
+  color: #fff;
+  padding: 5px 10px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  background: #0074d9; }
+
+.github-fork:hover {
+  background: #11528c; }
