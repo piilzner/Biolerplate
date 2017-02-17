@@ -1,12 +1,11 @@
+## Deprecated
+try [this](https://github.com/piilzner/pbp/tree/angular) pbp instead
+
 ## Contains
 ### Technologies
-[ES6 via Babel](http://babeljs.io/)
+[Gulp](http://gulpjs.com/)
 
 [Scss](http://sass-lang.com/)
-
-[Webpack](https://webpack.github.io/)
-
-[Webpack dev server](https://webpack.github.io/docs/webpack-dev-server.html)
 
 ### Libraries
 [Angular.js (v1.4.8)](https://angularjs.org/)
